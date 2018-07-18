@@ -15,4 +15,9 @@ class Dog
   def breed=(breedin)
     @breed = breedin
   end
+
+  def initialize(breed="Mutt")
+    @breed = breed
+  end
+
 end
